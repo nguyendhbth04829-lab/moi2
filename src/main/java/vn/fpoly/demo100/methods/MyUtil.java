@@ -7,7 +7,7 @@ public class MyUtil {
         }
         int tong = 0;
         for (int i = 0;i<arr.length;i++){
-            tong += arr[i];
+            tong += arr[i]+1;
         }
         return tong;
     }
